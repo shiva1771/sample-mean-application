@@ -1,0 +1,8 @@
+<div class="delete">
+    <h1>Delete Product</h1>
+    <form #delete="ngForm" (ngSubmit)="deleteproduct(delete)">
+        <label>Enter the id of the product</label><br>
+        <input type="text" ngModel name="id"><br><br>
+        <button>Delete Product</button>
+    </form>
+</div>

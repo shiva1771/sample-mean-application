@@ -1,0 +1,24 @@
+<div class="view">
+    <h1>View Product</h1>
+    <button type="button" (click)="viewdata()">View product</button><br><br>
+
+     <table border="2" *ngIf="showdata">
+        <thead>
+            <tr>
+                <th>Product id</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Brand</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let i of productdata">
+                <td>{{i.pid}}</td>
+                <td>{{i.name}}</td>
+                <td>{{i.price}}</td>
+                <td>{{i.brand}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+

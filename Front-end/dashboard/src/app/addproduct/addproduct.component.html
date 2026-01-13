@@ -1,0 +1,15 @@
+<div class="add">
+
+    <h1>Add Product</h1>
+    <form #add="ngForm" (ngSubmit)="addproduct(add)">
+        <label>Product Id</label><br>
+        <input type="number"  ngModel  name="pid"><br>
+         <label>Name</label><br>
+        <input type="text"  ngModel name="name"><br>
+         <label>Price</label><br>
+        <input type="number"  ngModel  name="price"><br>
+         <label>Brand</label><br>
+        <input type="text"  ngModel  name="brand"><br><br>
+        <button type="submit">Add Product</button><br>
+    </form>
+</div>

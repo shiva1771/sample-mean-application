@@ -1,0 +1,17 @@
+a{
+    text-decoration: none;
+    font-style: italic;
+    color: black;
+}
+.dashboard{
+    background-color: chartreuse;
+    text-align: center;
+    font-style: italic;
+}
+a{
+    margin: 10px;
+    font-size: 20px;
+}
+.class{
+    color:rgb(241, 5, 5);
+}

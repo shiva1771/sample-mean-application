@@ -1,0 +1,16 @@
+.add{
+    background-color: aquamarine;
+    text-align: center;
+    font-style: italic;
+}
+input{
+    width: 250px;
+    border: 0px;
+    font-style: italic;
+}
+
+button{
+    border: 0px;
+    padding: 5px;
+    font-style: italic;
+}
